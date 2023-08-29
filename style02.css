@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body{
+  height: 100vh;
+  background-image: url(img/gg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.daftar{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  padding: 20px 25px;
+  width: 300px;
+
+  background-color: rgba(184, 184, 184, 0.7);
+  box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+.daftar h2{
+  text-align: left;
+  color: #fafafa;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  border-bottom: 4px solid #53595a;
+}
+
+.daftar label{
+  text-align: left;
+  color: #ffffff;
+}
+.daftar form input{
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #53595a;
+  color: #fff;
+  font-size: 20px;
+}
+.daftar form button{
+  width: 100%;
+  padding: 5px 0;
+  border: none;
+  background-color:#53595a;
+  font-size: 18px;
+  color: #fafafa;
+  cursor: pointer;
+}
+
